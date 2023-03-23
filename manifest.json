@@ -10,10 +10,10 @@
    },
    "host_permissions": [ "*://*.bing.com/*" ],
    "icons": {
-      "128": "img/512.png",
-      "16": "img/512.png",
-      "32": "img/512.png",
-      "48": "img/512.png"
+      "128": "512.png",
+      "16": "512.png",
+      "32": "512.png",
+      "48": "512.png"
    },
    "manifest_version": 3,
    "name": "Chrome Unlock New Bing",
