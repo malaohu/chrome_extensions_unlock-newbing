@@ -10,3 +10,5 @@
 
 
 没有New Bing账号？参考文章：https://51.ruyo.net/18325.html
+
+在线Chrome扩展：https://chrome.google.com/webstore/detail/nglhdhdfndbadmaiieikpefenkbgpdbf
