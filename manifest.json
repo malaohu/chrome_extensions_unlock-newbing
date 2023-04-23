@@ -8,15 +8,17 @@
          "path": "rules.json"
       } ]
    },
+   "description": "在Chrome或其他Chromium内核浏览器中使用 New Bing AI",
    "host_permissions": [ "*://*.bing.com/*" ],
    "icons": {
-      "128": "512.png",
-      "16": "512.png",
-      "32": "512.png",
-      "48": "512.png"
+      "128": "img/512.png",
+      "16": "img/512.png",
+      "32": "img/512.png",
+      "48": "img/512.png"
    },
    "manifest_version": 3,
-   "name": "Chrome Unlock New Bing",
-   "permissions": [ "declarativeNetRequest"],
-   "version": "1.0.0"
+   "name": "Chrome Unlock New Bing AI",
+   "options_page": "settings.html",
+   "permissions": [ "declarativeNetRequest" ],
+   "version": "1.0.1"
 }

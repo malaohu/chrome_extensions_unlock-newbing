@@ -8,7 +8,27 @@
         {
           "header": "user-agent",
           "operation": "set",
-          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.62"
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48"
+        },
+        {
+          "header": "sec-ch-ua",
+          "operation": "set",
+          "value": "\"Chromium\";v=\"112\", \"Microsoft Edge\";v=\"112\", \"Not:A-Brand\";v=\"99\""
+        },
+        {
+          "header": "sec-ch-ua-full-version-list",
+          "operation": "set",
+          "value": "\"Chromium\";v=\"112.0.5615.121\", \"Microsoft Edge\";v=\"112.0.1722.48\", \"Not:A-Brand\";v=\"99.0.0.0\""
+        },
+        {
+          "header": "sec-ch-ua-platform-version",
+          "operation": "set",
+          "value": "\"15.0.0\""
+        },
+        {
+          "header": "sec-ch-ua-full-version",
+          "operation": "set",
+          "value":  "112.0.1722.48"
         }
       ]
     },
