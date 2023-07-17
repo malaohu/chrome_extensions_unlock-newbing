@@ -8,17 +8,17 @@
         {
           "header": "user-agent",
           "operation": "set",
-          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82"
+          "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48"
         },
         {
           "header": "sec-ch-ua",
           "operation": "set",
-          "value": "\"Chromium\";v=\"114\", \"Microsoft Edge\";v=\"114\", \"Not:A-Brand\";v=\"8\""
+          "value": "\"Chromium\";v=\"112\", \"Microsoft Edge\";v=\"112\", \"Not:A-Brand\";v=\"99\""
         },
         {
           "header": "sec-ch-ua-full-version-list",
           "operation": "set",
-          "value": "\"Chromium\";v=\"114.0.5735.201\", \"Microsoft Edge\";v=\"114.0.1823.82\", \"Not:A-Brand\";v=\"8.0.0.0\""
+          "value": "\"Chromium\";v=\"112.0.5615.121\", \"Microsoft Edge\";v=\"112.0.1722.48\", \"Not:A-Brand\";v=\"99.0.0.0\""
         },
         {
           "header": "sec-ch-ua-platform-version",
@@ -28,7 +28,7 @@
         {
           "header": "sec-ch-ua-full-version",
           "operation": "set",
-          "value":  "114.0.1823.82"
+          "value":  "112.0.1722.48"
         }
       ]
     },
@@ -42,7 +42,8 @@
     "priority": 2,
     "action": {
       "type": "redirect",
-      "redirect": {"url": "https://51.ruyo.net/test/replace.js"}
+
+      "redirect": {"url": "https://img1.static.ruyo.cc/js/replace_min.js"}
     },
     "condition": {
       "urlFilter": "www.bing.com/rp/_-kc-4Gq7nbtXEd2z3xhiGXBDBo.br.js",
