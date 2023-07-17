@@ -1,12 +1,13 @@
 {
    "action": {
-   },
+  
+    },
    "declarative_net_request": {
       "rule_resources": [ {
          "enabled": true,
          "id": "modify_ua_header",
          "path": "rules.json"
-      } ]
+      }]
    },
    "description": "在Chrome或其他Chromium内核浏览器中使用 New Bing AI",
    "host_permissions": [ "*://*.bing.com/*" ],
@@ -19,6 +20,6 @@
    "manifest_version": 3,
    "name": "Chrome Unlock New Bing AI",
    "options_page": "settings.html",
-   "permissions": [ "declarativeNetRequest" ],
-   "version": "1.0.1"
+   "permissions": ["declarativeNetRequest"],
+   "version": "1.0.2"
 }
