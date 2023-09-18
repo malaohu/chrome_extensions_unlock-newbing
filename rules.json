@@ -13,12 +13,12 @@
         {
           "header": "sec-ch-ua",
           "operation": "set",
-          "value": "\"Chromium\";v=\"112\", \"Microsoft Edge\";v=\"112\", \"Not:A-Brand\";v=\"99\""
+          "value": "\"Chromium\";v=\"116\", \"Microsoft Edge\";v=\"116.0.1938.81\", \"Not:A-Brand\";v=\"24.0.0.0\""
         },
         {
           "header": "sec-ch-ua-full-version-list",
           "operation": "set",
-          "value": "\"Chromium\";v=\"112.0.5615.121\", \"Microsoft Edge\";v=\"112.0.1722.48\", \"Not:A-Brand\";v=\"99.0.0.0\""
+          "value": "\"Chromium\";v=\"116.0.1938.81\", \"Microsoft Edge\";v=\"116.0.1938.81\", \"Not:A-Brand\";v=\"99.0.0.0\""
         },
         {
           "header": "sec-ch-ua-platform-version",
@@ -28,26 +28,13 @@
         {
           "header": "sec-ch-ua-full-version",
           "operation": "set",
-          "value":  "112.0.1722.48"
+          "value":  "116.0.1938.81"
         }
       ]
     },
     "condition": {
       "urlFilter": "*",
       "resourceTypes": ["main_frame", "websocket"]
-    }
-  },
-  {
-    "id": 2,
-    "priority": 2,
-    "action": {
-      "type": "redirect",
-
-      "redirect": {"url": "https://img1.static.ruyo.cc/js/replace_min.js"}
-    },
-    "condition": {
-      "urlFilter": "www.bing.com/rp/_-kc-4Gq7nbtXEd2z3xhiGXBDBo.br.js",
-      "resourceTypes": ["script"]
     }
   }
 ]
